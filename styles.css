@@ -1,0 +1,72 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #f1f5f9;
+        margin: 0;
+        padding: 20px;
+}
+
+h1 {
+        color: #2563eb;
+}
+
+.container {
+        max-width: 600px;
+        margin: auto;
+}
+
+.card {
+        background: white;
+        padding: 16px;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        margin-bottom: 12px;
+}
+
+.card.first {
+        background: #e0f2fe;
+}
+
+.row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+input {
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        width: 100%;
+        box-sizing: border-box;
+}
+
+button {
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+}
+
+.add-btn {
+        background: #2563eb;
+        color: white;
+}
+
+.delete-btn {
+        background: #dc2626;
+        color: white;
+}
+
+.score-btn {
+        background: #16a34a;
+        color: white;
+}
+
+.flex {
+        display: flex;
+        gap: 8px;
+}
+
+.score-row {
+        margin-top: 12px;
+}
